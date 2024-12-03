@@ -2,6 +2,8 @@
 
 The API requires an embedding model to operate. I used [jina-embeddings-v](https://huggingface.co/jinaai/jina-embeddings-v3).
 
+For a full writeup, please refer to [my blog post](https://dizzy.zone/2024/12/02/ML-for-related-posts-on-Hugo/).
+
 To build, execute `docker build .`.
 
 The API server only includes a single endpoint:

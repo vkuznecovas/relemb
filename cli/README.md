@@ -2,6 +2,8 @@
 
 The CLI finds all posts (markdown files) on my blog, fetches their embedding values, calculates consine similarity for each pair and saves the top 3 as related in the frontmatter.
 
+For a full writeup, please refer to [my blog post](https://dizzy.zone/2024/12/02/ML-for-related-posts-on-Hugo/).
+
 To run `go run cli/cmd/main.go update-related`. 
 
 ## Configuration
